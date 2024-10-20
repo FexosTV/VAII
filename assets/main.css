@@ -1,0 +1,53 @@
+.navLinks {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.schedule_table {
+    text-align: center;
+}
+
+.schedule_table td,
+.schedule_table th {
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.schedule_table td {
+    height: 8rem;
+}
+
+.schedule_table th {
+    background-color: #ffb81c;
+}
+
+.hodina {
+    background-color: #fbd37d !important;
+}
+
+.hodina:hover {
+    background-color: #ffde97 !important;
+}
+
+.history_table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.history_table thead th {
+    background: #ffb81c;
+    border-bottom: black 2px solid;
+}
+
+.history_table thead th:first-of-type {
+    border-top-left-radius: 10px;
+}
+
+.history_table thead th:last-of-type {
+    border-top-right-radius: 10px;
+}
